@@ -1,0 +1,12 @@
+{
+  "name": "bookmark-url-db",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "concurrently 'compass watch ./' 'livereload .' 'watch \"npm run js_docs_run\" js/'"
+  },
+  "author": "",
+  "license": "ISC"
+}

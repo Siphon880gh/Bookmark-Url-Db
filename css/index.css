@@ -1,0 +1,18 @@
+/* line 1, scss/index.scss */
+.panel-heading {
+  font-weight: 900;
+}
+
+/* line 4, scss/index.scss */
+.spacer {
+  height: 5px;
+  width: 1px;
+}
+
+/* line 8, scss/index.scss */
+.float-corner {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  border: 1px solid black;
+}
