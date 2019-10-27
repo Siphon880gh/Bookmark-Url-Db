@@ -19,3 +19,7 @@ var bookmarkDb = {
         }
     }
 }
+
+$(()=>{
+    bookmarkDb.bookmarkToObj(objToForm, ()=>{alert("Loaded from bookmarks");});
+});

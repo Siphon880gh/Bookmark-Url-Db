@@ -7,6 +7,7 @@
 
     <!-- jQuery and Bootstrap  -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 
     <!-- Bootstrap Toggle Button -->
@@ -86,14 +87,8 @@
         </script>
 
         <div class="float-corner">
-          <div class="btn btn-primary" onclick="bookmarkDb.objToBookmark(formToObj, ()=>{alert('Information saved. Bookmark or copy the URL now.')})">Prepare for bookmarking</div>
+          <div class="btn btn-primary" onclick="bookmarkDb.objToBookmark(formToObj, ()=>{alert('Information saved. Bookmark or copy the URL now.')})"><span class="fa fa-save">&nbsp;</span>&nbsp;Prepare for bookmarking</div>
         </div>
 
-        <script>
-        $(()=>{
-          bookmarkDb.bookmarkToObj(objToForm, ()=>{alert("Loaded from bookmarks");});
-        });
-        </script>
-        
     </body>
 </html>
