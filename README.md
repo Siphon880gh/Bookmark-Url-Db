@@ -1,6 +1,6 @@
 # Bookmark Url Db
 
-By Weng Fei Fung. This plugin allows you to save information such as DOM state or form values into the bookmark. When the user opens the bookmark, that information becomes available to the webpage. It is also available to anyone they share the URL to. How this works is by appending the information into the URL.
+By Weng Fei Fung. This plugin allows you to save information such as DOM state or form values into the bookmark. When the user or whoever they share the link with opens the bookmark, that information loads to the webpage. How this works is by appending the information into the URL.
 
 ## Getting Started
 
